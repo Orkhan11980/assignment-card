@@ -181,9 +181,8 @@ img{
 ul {
 	position: relative;
 	display: flex;
-    margin-left: -2.5rem;
-	margin-top: 2.5rem
-	
+	margin: 2.5rem 0 0 -2.5rem;
+  
 }
 ul li {
 	position: relative;
