@@ -236,6 +236,12 @@ ul li:nth-child(4) a::before {
 	border-bottom: 0.25rem solid #1DA1F2;
 	
 }
+ul li:nth-child(5) a::before {
+	content: "\f09b";
+	color: #015a91;
+	border-bottom: 0.25rem solid #1DA1F2;
+	
+}
 ul li:hover a::before {
 	height: 100%;
 }
