@@ -35,7 +35,7 @@ img{
     height: 12.5rem;
     border-radius: 100%;
     border-color: bisque;
-    border: 4px solid bisque;
+    border: 0.25rem solid bisque;
    
 }
 #title h1{
@@ -110,10 +110,10 @@ img{
 	text-decoration: none;
 	overflow: hidden;
 	color: #fff;
-	font-weight: 400px;
+	font-weight: 25rem;
 	z-index: 1;
 	transition: 0.5s;
-	backdrop-filter: blur(15px);
+	backdrop-filter: blur(0.938rem);
 }
 
 .container .btn:hover a {
@@ -132,7 +132,7 @@ img{
 	filter: blur(0px);
 }
 .container .btn:hover a::before {
-	transform: skewX(45deg) translate(200px);
+	transform: skewX(45deg) translate(12.5rem);
 }
 .container .btn::before {
 	content: "";
@@ -161,7 +161,7 @@ img{
 	width: 0.625rem;
 	height: 0..625rem;
 	background: #f00;
-	border-radius: 50px;
+	border-radius: 3.125rem;
 	transition: 0.5s;
 	transition-delay: 0.5;
 }
@@ -174,8 +174,8 @@ img{
 .container .btn:nth-child(1)::before, 
 .container .btn:nth-child(1)::after {
 	background: #34b6917c;
-	box-shadow: 0 0 5px #0b6678, 0 0 15px #1ff4ff, 0 0 40px #114c70,
-		0 0 60px #16bbc0;
+	box-shadow: 0 0 0.313rem #0b6678, 0 0 0.938rem #1ff4ff, 0 0 2.5rem #114c70,
+		0 0 3.75rem #16bbc0;
 }
 
 ul {
@@ -219,22 +219,22 @@ ul li:nth-child(1) a::before {
 	  #bc1888 100%);
 	-webkit-background-clip: text;
 	 -webkit-text-fill-color: transparent;
-	border-bottom: 4px solid #dc2743;
+	border-bottom: 0.25rem solid #dc2743;
 }
 ul li:nth-child(2) a::before {
 	content: "\f232";
 	color: #25D366;
-	border-bottom: 4px solid #25D366;
+	border-bottom: 0.25rem solid #25D366;
 }
 ul li:nth-child(3) a::before {
 	content: "\f099";
 	color: #1DA1F2;
-	border-bottom: 4px solid #1DA1F2;
+	border-bottom: 0.25rem solid #1DA1F2;
 }
 ul li:nth-child(4) a::before {
 	content: "\f08c";
 	color: #015a91;
-	border-bottom: 4px solid #1DA1F2;
+	border-bottom: 0.25rem solid #1DA1F2;
 	
 }
 ul li:hover a::before {
